@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.row img {
+    width: 95%;
+}
+/* footer .row img {
+    padding: 0;
+} */
