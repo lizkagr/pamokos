@@ -9,7 +9,7 @@ let AddFish = parseInt(
 );
 let totalDays = parseInt(prompt("How many days have passed?"));
 
-let FishAdder = totalFish + (AddFish * totalDays);
+let FishAdder = totalFish + AddFish * totalDays;
 
 console.log("Fish added: " + FishAdder);
 
