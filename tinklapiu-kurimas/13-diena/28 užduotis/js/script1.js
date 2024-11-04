@@ -3,14 +3,14 @@
 // -----------------------------
 
 const FishInAqua = 1;
-let totalFish = parseInt(prompt("Сколько рыб живёт в аквариуме"));
+let totalFish = parseInt(prompt("How many fish live in an aquarium?"));
 let AddFish = parseInt(
-  prompt("Сколько рыб помещается в аквариум каждый день?")
+  prompt("How many fish are placed in the aquarium each day?")
 );
-let totalDays = parseInt(prompt("Сколько дней прошло?"));
+let totalDays = parseInt(prompt("How many days have passed?"));
 
 let FishAdder = totalFish + (AddFish * totalDays);
 
-console.log("Рыбок добавлено: " + FishAdder);
+console.log("Fish added: " + FishAdder);
 
 // -----------------------------
