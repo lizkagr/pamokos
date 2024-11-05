@@ -9,5 +9,5 @@ for (let i = a; i <= b; i++) {
     count++;
   }
 }
-5;
-console.log(count);ё
+
+console.log(count);
