@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: #272b41;
+}
+.logo-and-burger {
+  /* margin-block: 10px; */
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.list {
+  margin-inline: auto;
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+  padding-block: 60px;
+  margin: 0;
+}
+.list a {
+  color: rgb(253, 253, 253);
+  text-decoration: none;
+}
+.list li {
+  padding: 10px;
+  font-family: "Geist", sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+}
+.section-first {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/Artur_Demianenko_CSS_KD/images/family.png");
+  background-size: cover;
+  background-position: center;
+}
+.main-text {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 75%;
+  margin-inline: auto;
+}
+.main-text p {
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  font-family: "Geist", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  width: 70%;
+  margin-inline: auto;
+  padding-top: 30px;
+}
+.h1-first {
+  font-family: "Geist", sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 33px;
+  padding-top: 60px;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-inline: auto;
+  width: 40%;
+  height: 150px;
+  padding-bottom: 40px;
+  padding-top: 30px;
+}
+.button-get {
+  background-color: #49a4ed;
+  height: 40px;
+  border-style: none;
+  font-family: "Oswald", sans-serif;
+  color: rgb(241, 241, 241);
+  border-radius: 18px;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.button-learn {
+  background: none;
+  border: 2px solid #49a4ed;
+  height: 40px;
+  font-family: "Oswald", sans-serif;
+  color: #49a4ed;
+  border-radius: 18px;
+  width: 90%;
+  margin-inline: auto;
+  font-size: 15px;
+}
+.section-second {
+  background-color: #272b41;
+}
+.forgrid {
+  text-align: center;
+}
+.item1 {
+  grid-area: kvadrat;
+}
+.item2 {
+  grid-area: kvadrat-second;
+}
+.item3 {
+  grid-area: kvadrat-third;
+}
+.section-second {
+  display: grid;
+
+  grid-template-areas:
+    "kvadrat"
+    "kvadrat-second"
+    "kvadrat-third";
+  gap: 60px;
+}
+.item1 {
+  padding-top: 70px;
+}
+.forgrid p {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-family: "Geist", sans-serif;
+  margin-block: 8px;
+  font-weight: 300;
+}
+.forgrid figcaption {
+  width: 70%;
+  margin-inline: auto;
+}
+.forgrid h4 {
+  color: rgb(255, 255, 255);
+  font-family: "Geist", sans-serif;
+}
+.item3 {
+  padding-bottom: 60px;
+}
+.section-third {
+  background-color: #96c1f0;
+}
+.text-section-third {
+  width: 70%;
+  text-align: center;
+  margin-inline: auto;
+}
+.text-section-third p {
+  color: rgb(243, 243, 243);
+  width: 75%;
+  margin-inline: auto;
+  font-size: 17px;
+  font-family: "Geist", sans-serif;
+  font-weight: 300;
+}
+.two-boxes {
+  /* margin-inline: auto; */
+  padding-bottom: 70px;
+  padding-top: 70px;
+}
+.box-first {
+  margin-inline: auto;
+  background-color: rgb(255, 255, 255);
+  width: 70%;
+  margin-bottom: 40px;
+}
+.box-second {
+  margin-inline: auto;
+  background-color: rgb(255, 255, 255);
+  width: 70%;
+}
+.text p {
+  width: 70%;
+  margin: 0;
+  margin-left: 10px;
+}
+.section-four {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url(/Artur_Demianenko_CSS_KD/images/family-second.png);
+  padding-bottom: 70px;
+}
+.article {
+  padding-bottom: 40px;
+}
+.text-for-article {
+  margin-inline: auto;
+  text-align: left;
+  width: 70%;
+}
+.text-for-article p {
+  font-family: "Geist", sans-serif;
+  width: 70%;
+  padding-top: 10px;
+}
+.button-for-article {
+  padding-top: 70px;
+  width: 70%;
+  text-align: left;
+  margin-inline: auto;
+}
+.article-button {
+  background-color: #49a4ed;
+  border-style: none;
+  color: rgb(255, 255, 255);
+  width: 50%;
+  height: 50px;
+  text-align: center;
+  margin-inline: auto;
+  font-family: "Geist", sans-serif;
+  font-weight: 500;
+}
+.footer {
+  background-color: #272b41;
+}
+.footer h3 {
+  color: rgb(255, 255, 255);
+  font-family: "Geist", sans-serif;
+  font-weight: 300;
+}
+.footer-div {
+  padding-block: 50px;
+  width: 60%;
+  text-align: center;
+  margin-inline: auto;
+}
+.icons {
+  font-size: 25px;
+  color: #49a4ed;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.icons i {
+  padding: 5px;
+}
+@media (min-width: 768px) {
+  .for-big-screen {
+    display: flex;
+  }
+  .icons {
+    padding: 0;
+    padding-block: 50px;
+    margin-inline: auto;
+  }
+  .text-for-article {
+    grid-area: 1column;
+  }
+  .button-for-article {
+    grid-area: 2column;
+    width: 400px;
+  }
+  .article {
+    display: grid;
+
+    grid-template-areas: "1column 2column";
+  }
+  .box-first {
+    grid-area: box-first;
+    width: 333px;
+    margin-bottom: 0;
+    padding: 20px;
+  }
+  .box-second {
+    grid-area: box-second;
+    width: 333px;
+    padding: 20px;
+  }
+  .two-boxes {
+    display: grid;
+    grid-template-areas: "box-first box-second";
+  }
+  .section-second {
+    display: grid;
+
+    grid-template-areas: "kvadrat kvadrat-second kvadrat-third";
+
+  }
+  .item3 {
+    padding: 0;
+    padding-block: 50px;
+  }
+  .item2 {
+    padding-block: 50px;
+  }
+  .item1 {
+    padding: 0;
+    padding-block: 50px;
+  }
+  .forgrid figcaption {
+    width: 100%;
+  }
+}
